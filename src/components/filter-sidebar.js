@@ -1,4 +1,5 @@
 import { LitElement, html, css } from 'lit';
+import { DDDSuper } from "@haxtheweb/d-d-d/d-d-d.js";
 
 export class FilterSidebar extends LitElement {
   static properties = {
@@ -23,7 +24,7 @@ export class FilterSidebar extends LitElement {
     .filter-title {
       font-size: 1.2rem;
       margin-bottom: 1rem;
-      color: #333;
+      color: var(--ddd-theme-default-nittanyNavy);
     }
 
     .search-container {
@@ -33,7 +34,7 @@ export class FilterSidebar extends LitElement {
     .search-input {
       width: 100%;
       padding: 0.5rem;
-      border: 1px solid #ddd;
+      border: 1px solid var(--ddd-theme-default-potential50);
       border-radius: 4px;
       font-size: 0.9rem;
       box-sizing: border-box;
@@ -41,7 +42,7 @@ export class FilterSidebar extends LitElement {
 
     .search-input:focus {
       outline: none;
-      border-color: #0066cc;
+      border-color: var(--ddd-theme-default-pughBlue);
       box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
     }
 
@@ -59,12 +60,12 @@ export class FilterSidebar extends LitElement {
     }
 
     .filter-item:hover {
-      background: #f5f5f5;
+      background: var(--ddd-theme-default-slateMaxLight);
     }
 
     .filter-item.active {
-      background: #e6f0ff;
-      color: #0066cc;
+      background: var(--ddd-theme-default-pughBlue);
+      color: var(--ddd-theme-default-skyBlue);
     }
   `;
 

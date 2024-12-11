@@ -2,6 +2,7 @@ import { LitElement, html, css } from 'lit';
 import './components/filter-sidebar.js';
 import './components/hax-use-case-card.js';
 import useCaseData from './lib/use-case-data.json' assert { type: 'json' };
+import { DDDSuper } from "@haxtheweb/d-d-d/d-d-d.js";
 
 export class HaxUseCaseApp extends LitElement {
   static properties = {
@@ -15,12 +16,12 @@ export class HaxUseCaseApp extends LitElement {
     :host {
       display: block;
       min-height: 100vh;
-      background: #f5f5f5;
+      background: var(--ddd-theme-default-slateLight);
     }
 
     .header {
       background: #333;
-      color: white;
+      color: var(--ddd-theme-default-white);
       padding: 1rem;
     }
 

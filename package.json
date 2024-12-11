@@ -1,10 +1,11 @@
+
 {
-  "name": "hax-use-case-app",
+  "name": "hax-dash",
   "version": "0.0.0",
   "description": "Webcomponent hax-use-case-app following hax / open-wc recommendations",
   "license": "Apache-2.0",
   "author": {
-    "name": "izzabizz5"
+    "name": "DillyTorgs"
   },
   "keywords": [
     "webcomponents",
@@ -13,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/izzabizz5/hax-use-case-app"
+    "url": "https://github.com/DillyTorgs/hax-dash/tree/main"
   },
   "type": "module",
   "main": "hax-use-case-app.js",
