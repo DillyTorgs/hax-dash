@@ -1,0 +1,68 @@
+{
+  "status": 200,
+  "data": [
+    {
+      "id": "course-template",
+      "title": "Course Template",
+      "description": "Perfect for creating structured course content with modules, lessons, and assignments",
+      "tags": ["education", "course"],
+      "features": ["Syllabus", "Assignments", "Gradebook"]
+    },
+    {
+      "id": "portfolio",
+      "title": "Professional Portfolio",
+      "description": "Showcase your work and achievements with a clean, modern portfolio layout",
+      "tags": ["portfolio", "professional"],
+      "features": ["Project Gallery", "Resume", "Contact Form"]
+    },
+    {
+      "id": "research-lab",
+      "title": "Research Lab",
+      "description": "Share research findings, publications, and team information",
+      "tags": ["research", "academic"],
+      "features": ["Publications", "Team Profiles", "Research Projects"]
+    },
+    {
+      "id": "blog-platform",
+      "title": "Blog Platform",
+      "description": "Create and manage your personal or professional blog with ease",
+      "tags": ["blog", "content"],
+      "features": ["Article Editor", "Comments", "Categories"]
+    },
+    {
+      "id": "event-site",
+      "title": "Event Website",
+      "description": "Organize and promote events with registration and scheduling",
+      "tags": ["events", "professional"],
+      "features": ["Registration", "Schedule", "Speaker Profiles"]
+    },
+    {
+      "id": "documentation",
+      "title": "Documentation Site",
+      "description": "Create comprehensive documentation for your project or API",
+      "tags": ["technical", "documentation"],
+      "features": ["Search", "Versioning", "Code Snippets"]
+    },
+    {
+      "id": "community-forum",
+      "title": "Community Forum",
+      "description": "Build an engaging community platform with discussions",
+      "tags": ["community", "social"],
+      "features": ["Topics", "User Profiles", "Notifications"]
+    },
+    {
+      "id": "knowledge-base",
+      "title": "Knowledge Base",
+      "description": "Create a searchable repository of helpful articles and guides",
+      "tags": ["education", "documentation"],
+      "features": ["Categories", "Search", "Related Articles"]
+    },
+    {
+      "id": "team-dashboard",
+      "title": "Team Dashboard",
+      "description": "Collaborative workspace for team projects and tasks",
+      "tags": ["professional", "collaboration"],
+      "features": ["Task Board", "Team Chat", "File Sharing"]
+    }
+  ]
+}
